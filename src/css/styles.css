@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.search-form {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(0, 162, 255);
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+}
+
+.search-form input {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  height: 20px;
+  width: 400px;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+.search-form button {
+  margin-top: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 43px;
+  border-radius: 4px;
+  border-color: transparent;
+  background-color: #004a80;
+
+  color: #fff;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.photo-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.photo-card img {
+  width: 100%;
+  height: auto;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f4f4f4;
+  column-gap: 5px;
+}
+.photo-card {
+  text-decoration: none;
+  color: rgba(17, 16, 16, 0.9);
+}
+
+.load-more {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: none;
+}
