@@ -72,9 +72,14 @@ body {
 }
 
 .load-more {
+  margin: 25px;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  margin-top: 20px;
+  height: 43px;
+  border-radius: 4px;
+  border-color: transparent;
+  background-color: #004a80;
+  color: #fff;
   display: none;
 }
